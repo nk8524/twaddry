@@ -14,7 +14,7 @@
 
   $post_data = $all_post_data;
 
-  $dir = '/twaddry';
+  $dir = __DIR__;
 ?>
 <!DOCTYPE html>
 <html lang="ja">
