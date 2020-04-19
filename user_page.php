@@ -22,7 +22,7 @@
       $error_message[] = "このユーザーは存在しません";
     }
   } else {
-    header("Location: ".__DIR__."/index.php");
+    header("Location: /index.php");
     exit;
   }
 

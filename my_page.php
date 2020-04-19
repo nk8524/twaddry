@@ -5,7 +5,7 @@
   // ログイン状態ならデータベースからアカウント情報を取得
   if( empty($_SESSION['login']) ) {
     // ログインしていなければトップへリダイレクト
-    header('Location: '.__DIR__.'/index.php');
+    header('Location: /index.php');
     exit;
   } else {
     $user_id = htmlspecialchars($_SESSION['login'], ENT_QUOTES);
