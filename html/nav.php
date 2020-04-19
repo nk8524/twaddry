@@ -4,7 +4,7 @@
     <?php if( !empty($_SESSION['login']) ): ?>
       <?php // ログイン済み ?>
       <li class="fab nav-item btn-circle d-flex justify-content-center align-items-center position-relative box-shadow mx-3 mx-md-0">
-        <a class="lh-0 stretched-link" href="<?php echo $dir ?>/my_page.php">
+        <a class="lh-0 stretched-link" href="/my_page.php">
           <i class="material-icons nav-icon">person</i>
         </a>
       </li>
@@ -14,7 +14,7 @@
         </a>
       </li>
       <li class="fab nav-item btn-circle d-flex justify-content-center align-items-center position-relative box-shadow mx-3 mx-md-0">
-        <a class="lh-0 stretched-link" href="<?php echo $dir ?>/logout.php">
+        <a class="lh-0 stretched-link" href="/logout.php">
           <i class="material-icons nav-icon">exit_to_app</i>
         </a>
       </li>

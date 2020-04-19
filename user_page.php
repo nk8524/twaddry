@@ -28,7 +28,6 @@
 
   $post_data = $user_post_data;
 
-  $dir = '/twaddry';
 ?>
 <!DOCTYPE html>
 <html lang="ja">

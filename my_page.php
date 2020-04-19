@@ -19,7 +19,6 @@
 
   $post_data = $my_post_data;
 
-  $dir = '/twaddry';
 ?>
 <!DOCTYPE html>
 <html lang="ja">

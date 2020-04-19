@@ -13,8 +13,7 @@
   $all_post_data = $tb_posts->selectAll();
 
   $post_data = $all_post_data;
-
-  $dir = __DIR__;
+  
 ?>
 <!DOCTYPE html>
 <html lang="ja">
