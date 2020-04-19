@@ -25,7 +25,7 @@ $(function(){
       error.remove();
     }
     $.ajax({
-        url: '/twaddry/server/response_ajax.php',
+        url: '/server/response_ajax.php',
         method: $form.attr('method'),
         data: requestData,
         dataType: 'json',
