@@ -2,15 +2,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <!-- CSS -->
-  <link href="<?php echo $dir ?>/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://twaddry.herokuapp.com/<?php echo $dir ?>/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="<?php echo $dir ?>/css/style.css" rel="stylesheet">
+  <link href="https://twaddry.herokuapp.com/<?php echo $dir ?>/css/style.css" rel="stylesheet">
   <!-- JS -->
-  <script src="<?php echo $dir ?>/js/jquery-3.5.0.min.js"></script>
-  <script src="<?php echo $dir ?>/js/bootstrap.bundle.min.js"></script>
-  <script src="<?php echo $dir ?>/js/autosize.min.js"></script>
-  <script src="<?php echo $dir ?>/js/textarea.js"></script>
-  <script src="<?php echo $dir ?>/js/modal-form-ajax.js"></script>
+  <script src="https://twaddry.herokuapp.com/<?php echo $dir ?>/js/jquery-3.5.0.min.js"></script>
+  <script src="https://twaddry.herokuapp.com/<?php echo $dir ?>/js/bootstrap.bundle.min.js"></script>
+  <script src="https://twaddry.herokuapp.com/<?php echo $dir ?>/js/autosize.min.js"></script>
+  <script src="https://twaddry.herokuapp.com/<?php echo $dir ?>/js/textarea.js"></script>
+  <script src="https://twaddry.herokuapp.com/<?php echo $dir ?>/js/modal-form-ajax.js"></script>
   <title>
   <?php if (preg_match('/index/',$_SERVER['REQUEST_URI'])) :?>
     twaddry
